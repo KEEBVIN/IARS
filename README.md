@@ -6,6 +6,10 @@ Recently, there has been a significant advancement in designing Self-Supervised 
 
 # Important for running:
 This repo works via CLI and can be ran by following these steps: 
+
+Firstly for each respective Dataset you need to create a corresponding folder with the same name in the IARS/figures directory in order to save the figures to the corresponding dataset.
+
+ex. IARS/Datasets/**Example_Dataset_Name** and IARS/figures/**Example_Dataset_Name** both must exist before running the script.
 # Requirements:
 ```bash
   git clone https://github.com/KEEBVIN/IARS.git
