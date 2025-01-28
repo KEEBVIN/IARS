@@ -4,6 +4,8 @@ This paper was Accepted to the IEEE Big Data 2024 conference.
 # Abstract
 Recently, there has been a significant advancement in designing Self-Supervised Learning (SSL) frameworks for time series data to reduce the dependency on data labels. Among these works, hierarchical contrastive learning-based SSL frameworks, which learn representations by contrasting data embeddings at multiple resolutions, have gained considerable attention. Due to their ability to gather more information, they exhibit better generalization in various downstream tasks. However, when the time series data length is significant long, the computational cost is often significantly higher than that of other SSL frameworks. In this paper, to address this challenge, we propose an efficient way to train hierarchical contrastive learning models. Inspired by the fact that each resolution's data embedding is highly dependent, we introduce importance-aware resolution selection based training framework to reduce the computational cost. In the experiment, we demonstrate that the proposed method significantly improves training time while preserving the original model's integrity in extensive time series classification performance evaluations.
 
+Our paper: https://ieeexplore.ieee.org/document/10825448
+
 <div align=center>
   <img src=new_fig1.jpg>
 </div>
@@ -44,4 +46,17 @@ There are 7 available datasets that're ready to use once the repo and requiremen
 ```bash
 python run.py
 ```
+
+
+# Reference 
+@INPROCEEDINGS{10825448,
+  author={Garcia, Kevin and Perez, Juan M and Gao, Yifeng},
+  booktitle={2024 IEEE International Conference on Big Data (BigData)}, 
+  title={Efficient Hierarchical Contrastive Self-supervising Learning for Time Series Classification via Importance-aware Resolution Selection}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={880-889},
+  keywords={Training;Representation learning;Performance evaluation;Codes;Computational modeling;Time series analysis;Contrastive learning;Big Data;Computational efficiency;Load modeling;Time series;Self Supervised Learning;Data Mining;Machine Learning},
+  doi={10.1109/BigData62323.2024.10825448}}
 
