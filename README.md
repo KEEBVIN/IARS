@@ -49,6 +49,7 @@ python run.py
 
 
 # Reference 
+```bash
 @INPROCEEDINGS{10825448,
   author={Garcia, Kevin and Perez, Juan M and Gao, Yifeng},
   booktitle={2024 IEEE International Conference on Big Data (BigData)}, 
@@ -59,4 +60,4 @@ python run.py
   pages={880-889},
   keywords={Training;Representation learning;Performance evaluation;Codes;Computational modeling;Time series analysis;Contrastive learning;Big Data;Computational efficiency;Load modeling;Time series;Self Supervised Learning;Data Mining;Machine Learning},
   doi={10.1109/BigData62323.2024.10825448}}
-
+```
